@@ -1,0 +1,60 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5%;
+}
+
+nav, header, div, section, footer {
+    padding : 5%;
+    margin-bottom: 5%;
+}
+
+nav, header, div, footer {
+    text-align: center;
+}
+
+nav {
+    background-color: limegreen;
+    position: sticky;
+    top : 0;
+    z-index: 1;
+}
+
+header {
+    background-color: gray;
+    border: 1px solid blue;
+}
+
+#container {
+    background-color: lightgreen;
+    position: relative;
+    padding-bottom: 25%;
+}
+
+#contained {
+    background-color: pink;
+    width: 50%;
+    position: absolute;
+    top : 0;
+    right : 0;
+}
+
+section {
+    border: 1px solid black;
+}
+
+#leftSection {
+    position: relative;
+    width: 35%;
+}
+
+#rightSection {
+    position: relative;
+    left: 50%;
+    width: 35%;
+}
+
+footer {
+    background-color: pink;
+}
+
